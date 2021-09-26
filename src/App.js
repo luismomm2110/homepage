@@ -85,6 +85,7 @@ function Intro() {
 function VolunteerWork() {
 		return ( 
 			<React.Fragment>
+			<br> </br> 
 				<h4 className="header" style={{"fontSize" : "120%"}}>Volunteer Work</h4>
 				<p className="main-text"> 
 					Since the closing of schools due to the COVID-19 pandemic,
@@ -100,6 +101,7 @@ function SelectedProjects({projects}) {
 
 	return (
 		<React.Fragment> 
+			<br> </br> 
 			<div className="projects-box"> 
 				{projects.map((project, i) => (
 				<div key={i} className={project_class.concat(i+1)}> 
@@ -117,6 +119,7 @@ function SelectedProjects({projects}) {
 function PersonalLife() {
 	return ( 
 		<React.Fragment>
+		<br> </br> 
 		<h4 className="header" style={{"fontSize" : "120%"}}>Personal Life</h4>
 		<p className="main-text"> In my spare time, I enjoy cooking, reading (contemporary and modern fiction, economics as an academic field, philosophy, especially epistemology), weightlifting,
 			cycling and discovering new music (mostly krautrock and post-punk)
@@ -128,6 +131,7 @@ function PersonalLife() {
 function Education() {
 	return (
 		<React.Fragment>
+			<br> </br> 
 			<h4 className="header" style={{"fontSize" : "120%"}}>Education</h4>
 			<hr className="horizontal-line"></hr>
 			<p className="main-text"> 
@@ -177,13 +181,9 @@ function App() {
 					<Photo />
 					<Icons  icons={icons} />
 					<Intro />
-					<br> </br> 
 					<Education />
-					<br> </br> 
 					<SelectedProjects projects={projects} />
-					<br> </br> 
 					<VolunteerWork />
-					<br> </br> 
 					<PersonalLife />
 				</ Col> 
 				<Col className={"side-box"} lg={3} xs={1}>
