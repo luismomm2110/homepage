@@ -177,9 +177,13 @@ function App() {
 					<Photo />
 					<Icons  icons={icons} />
 					<Intro />
+					<br> </br> 
 					<Education />
+					<br> </br> 
 					<SelectedProjects projects={projects} />
+					<br> </br> 
 					<VolunteerWork />
+					<br> </br> 
 					<PersonalLife />
 				</ Col> 
 				<Col className={"side-box"} lg={3} xs={1}>
