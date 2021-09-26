@@ -1,6 +1,6 @@
 {
   "homepage": "https://luismomm2110.github.io/",
-  "name": "/homepage",
+  "name": "homepage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,6 +42,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.1"
+    "gh-pages": "^2.2.0"
   }
 }
