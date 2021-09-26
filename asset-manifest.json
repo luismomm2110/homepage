@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.ef722fb0.chunk.css",
-    "main.js": "/static/js/main.b8f98249.chunk.js",
-    "main.js.map": "/static/js/main.b8f98249.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.82981d60.js",
-    "runtime-main.js.map": "/static/js/runtime-main.82981d60.js.map",
-    "static/css/2.983f79de.chunk.css": "/static/css/2.983f79de.chunk.css",
-    "static/js/2.2cb75f10.chunk.js": "/static/js/2.2cb75f10.chunk.js",
-    "static/js/2.2cb75f10.chunk.js.map": "/static/js/2.2cb75f10.chunk.js.map",
-    "static/js/3.74a93f65.chunk.js": "/static/js/3.74a93f65.chunk.js",
-    "static/js/3.74a93f65.chunk.js.map": "/static/js/3.74a93f65.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.983f79de.chunk.css.map": "/static/css/2.983f79de.chunk.css.map",
-    "static/css/main.ef722fb0.chunk.css.map": "/static/css/main.ef722fb0.chunk.css.map",
-    "static/js/2.2cb75f10.chunk.js.LICENSE.txt": "/static/js/2.2cb75f10.chunk.js.LICENSE.txt",
-    "static/media/c-language.837a4911.png": "/static/media/c-language.837a4911.png",
-    "static/media/java_icon.5d204cd5.jpg": "/static/media/java_icon.5d204cd5.jpg",
-    "static/media/personal_image.8e1a551a.png": "/static/media/personal_image.8e1a551a.png",
-    "static/media/python-logo.82ab0bdb.png": "/static/media/python-logo.82ab0bdb.png"
+    "main.css": "/homepage/static/css/main.ef722fb0.chunk.css",
+    "main.js": "/homepage/static/js/main.c2e8739d.chunk.js",
+    "main.js.map": "/homepage/static/js/main.c2e8739d.chunk.js.map",
+    "runtime-main.js": "/homepage/static/js/runtime-main.97351a3a.js",
+    "runtime-main.js.map": "/homepage/static/js/runtime-main.97351a3a.js.map",
+    "static/css/2.983f79de.chunk.css": "/homepage/static/css/2.983f79de.chunk.css",
+    "static/js/2.f180ee50.chunk.js": "/homepage/static/js/2.f180ee50.chunk.js",
+    "static/js/2.f180ee50.chunk.js.map": "/homepage/static/js/2.f180ee50.chunk.js.map",
+    "static/js/3.2decea3f.chunk.js": "/homepage/static/js/3.2decea3f.chunk.js",
+    "static/js/3.2decea3f.chunk.js.map": "/homepage/static/js/3.2decea3f.chunk.js.map",
+    "index.html": "/homepage/index.html",
+    "static/css/2.983f79de.chunk.css.map": "/homepage/static/css/2.983f79de.chunk.css.map",
+    "static/css/main.ef722fb0.chunk.css.map": "/homepage/static/css/main.ef722fb0.chunk.css.map",
+    "static/js/2.f180ee50.chunk.js.LICENSE.txt": "/homepage/static/js/2.f180ee50.chunk.js.LICENSE.txt",
+    "static/media/c-language.837a4911.png": "/homepage/static/media/c-language.837a4911.png",
+    "static/media/java_icon.5d204cd5.jpg": "/homepage/static/media/java_icon.5d204cd5.jpg",
+    "static/media/personal_image.8e1a551a.png": "/homepage/static/media/personal_image.8e1a551a.png",
+    "static/media/python-logo.82ab0bdb.png": "/homepage/static/media/python-logo.82ab0bdb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.82981d60.js",
+    "static/js/runtime-main.97351a3a.js",
     "static/css/2.983f79de.chunk.css",
-    "static/js/2.2cb75f10.chunk.js",
+    "static/js/2.f180ee50.chunk.js",
     "static/css/main.ef722fb0.chunk.css",
-    "static/js/main.b8f98249.chunk.js"
+    "static/js/main.c2e8739d.chunk.js"
   ]
 }
