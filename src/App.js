@@ -39,13 +39,13 @@ const projects = [
 	{
 		title: "My own Shell",
 		url: "https://github.com/luismomm2110/ostep-projects/tree/master/processes-shell",
-		description: "A implementation of a UNIX Shell, part of an Operating System Class by University of Washington",
+		description: "An implementation of a UNIX Shell, part of an Operating System Class by University of Washington",
 		language: c_logo
 	}, 
 	{
 		title: "VM interpreter",
 		url: "https://github.com/luismomm2110/nand2tetris.part2/tree/main/projects/07/src",
-		description: "A interpreter of bytecode Jack (a pedagogic programming language) file to assembly",
+		description: "An interpreter of bytecode Jack (a pedagogic programming language) file to assembly",
 		language: java_logo
 	},
 	{
@@ -69,7 +69,7 @@ function Intro() {
 			</div>
 			<hr className="horizontal-line"></hr>
 			<p className="main-text"> 
-				Hi! I am a brazilian professional and technology student. I currently work at <a href="https://www.softexpert.com/company/"> SoftExpert </a>, 
+				Hi! I am a brazilian student and technology worker. I currently work at <a href="https://www.softexpert.com/company/"> SoftExpert </a>, 
 				a brazilian company market leader in software for bussiness compliance, 
 				where I work with data integration (mainly using pandas)
 				and creation of SQL Scripts for BI panels for the company's customers.
@@ -87,7 +87,7 @@ function VolunteerWork() {
 			<React.Fragment>
 				<h4 className="header" style={{"fontSize" : "120%"}}>Volunteer Work</h4>
 				<p className="main-text"> 
-					Since the closing of schools due to the COVID-19 pandemic,
+					With the closing of schools due to the COVID-19 pandemic,
 					 refugee students in Brazil have had a lot of difficulties due to the change in education. 
 					 So I participated in a project in my city called "Abraços Abertos" (Open Hugs), where I volunteer classes for Haitian refugees, especially math and physics, through cell phone calls and Skype.
 				</p>
@@ -131,12 +131,12 @@ function Education() {
 			<h4 className="header" style={{"fontSize" : "120%"}}>Education</h4>
 			<hr className="horizontal-line"></hr>
 			<p className="main-text"> 
-				As an advocate of open-source education as democratization tool, 
+				As an advocate of open-source education as a tool to provide anyone anywhere the chance to better themselves, 
 				most of my technology education is through the <a href="https://github.com/ossu/computer-science"> 
-				 Open Source Society University (OSSU) curriculum for Computer Science</a>. Simultaneously, I study Software Engineering at Católica de Santa Catarina. 
+				 Open Source Society University (OSSU) curriculum for Computer Science</a>. At the same time, I also study Software Engineering at University Católica de Santa Catarina. 
 			</p> 
 			<p className="main-text">	
-				Before that, I passed the admission exam for a Bachelor of Medicine at the Federal University of Santa Catarina, in which I got the nineteenth position out of more than 8000 candidates (top 0.3%). I also obtained a performance above 90% in the math test, achieved by only 23 candidates among more than 31000 (top 0.08%)
+				Before that, I was accepted to study Medicine at Federal University of Santa Catarina, in which I got the nineteenth position out of more than 8000 candidates (top 0.3%). For brazilian equivalent of the MCATS necessary to entry, I also obtained a performance above 90% in the math section, which was achieved by only 23 candidates among more than 31000 (top 0.08%).
 			</p>
 			<h5 className="header" style={{"fontSize" : "80%"}}>Selected Projects</h5>
 			<hr  className="horizontal-line"></hr>
