@@ -9,6 +9,33 @@ import c_logo from "./assets/c-language.png";
 import java_logo from "./assets/java_icon.jpg";
 import python_logo from "./assets/python-logo.png";
 import React from "react";
+import { Fetch } from "./Fetch";
+import Repos from "./Repos";
+
+function UserDisplay({ data }) {
+    return (
+        <div className="githubUser"> 
+            <div> 
+                <h1>{data.login}</h1>
+                {data.name &&  <p>{data.name}</p>}
+            </div>
+            <Repos
+                login={data.login}
+                onSelect={repoName => console.log(`${repoName} selected`)}
+            />
+        </div>
+    )
+}
+
+function User({ login }) {
+    return (
+        <Fetch 
+            uri={`https://api.github.com/users/${login}`}
+            renderSuccess={UserDisplay}
+        />
+    )
+}
+
 
 
 const icons = [
@@ -184,6 +211,7 @@ function App() {
 				</ Col> 
 				<Col className={"side-box"} lg={3} xs={1}>
 				</Col>
+				<User login="luismomm2110" />;
 		</Row>
 	</div>
   );
