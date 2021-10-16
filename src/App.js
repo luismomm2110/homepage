@@ -16,10 +16,9 @@ function UserDisplay({ data }) {
     return (
         <div className="githubUser"> 
             <div> 
-                <h1>{data.login}</h1>
-                {data.name &&  <p>{data.name}</p>}
+                <h3>Github Repositories</h3>
             </div>
-            <Repos
+            <Repos  
                 login={data.login}
                 onSelect={repoName => console.log(`${repoName} selected`)}
             />
@@ -165,7 +164,6 @@ function Education() {
 			<p className="main-text">	
 				Before that, I was accepted to study Medicine at Federal University of Santa Catarina, in which I got the nineteenth position out of more than 8000 candidates (top 0.3%). For brazilian equivalent of the MCATS necessary to entry, I also obtained a performance above 90% in the math section, which was achieved by only 23 candidates among more than 31000 (top 0.08%).
 			</p>
-			<h5 className="header" style={{"fontSize" : "80%"}}>Selected Projects</h5>
 			<hr  className="horizontal-line"></hr>
 		</React.Fragment>
 	)
@@ -205,13 +203,12 @@ function App() {
 					<Icons  icons={icons} />
 					<Intro style={{"margin-bottom" : "100%"}} />
 					<Education />
-					<SelectedProjects projects={projects} />
+					<User login="luismomm2110" />
 					<VolunteerWork />
 					<PersonalLife />
 				</ Col> 
 				<Col className={"side-box"} lg={3} xs={1}>
 				</Col>
-				<User login="luismomm2110" />;
 		</Row>
 	</div>
   );
